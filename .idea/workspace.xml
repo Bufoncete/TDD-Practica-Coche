@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba336d3e-143b-455f-90dc-a3f126050a35" name="Changes" comment="Finalizaco con éxito la implementación del método acelerar.">
+    <list default="true" id="ba336d3e-143b-455f-90dc-a3f126050a35" name="Changes" comment="Finalizaco con éxito la implementación del método desacelerar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Coche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/TestCoche.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestCoche.java" afterDir="false" />
@@ -45,7 +45,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCoche.test_al_deacelerar_un_coche_su_velocidad_disminuye">
+  <component name="RunManager" selected="JUnit.TestCoche.test_al_descelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero">
     <configuration name="TestCoche.test_al_acelerar_un_coche_su_velocidad_aumenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Practica Coche" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCoche.test_al_descelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Practica Coche" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCoche" />
+      <option name="METHOD_NAME" value="test_al_descelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCoche.test_crear_coche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Practica Coche" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCoche.test_al_descelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" />
         <item itemvalue="JUnit.TestCoche.test_al_deacelerar_un_coche_su_velocidad_disminuye" />
         <item itemvalue="JUnit.TestCoche.test_al_acelerar_un_coche_su_velocidad_aumenta" />
         <item itemvalue="JUnit.TestCoche.test_al_crear_un_coche_su_velocidad_es_cero" />
@@ -132,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680208352781</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finalizaco con éxito la implementación del método desacelerar.">
+      <created>1680208601278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680208601278</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finalizaco con éxito la implementación del método desacelerar.">
+      <created>1680208633683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680208633683</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +175,8 @@
     <MESSAGE value="Creación de proyecto y primeras clases de test" />
     <MESSAGE value="Finalizaco con éxito la prueba final de la primera parte del tutorial." />
     <MESSAGE value="Finalizaco con éxito la implementación del método acelerar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizaco con éxito la implementación del método acelerar." />
+    <MESSAGE value="Finalizaco con éxito la implementación del método desacelerar." />
+    <MESSAGE value="Finalizaco con éxito la implementación del método desacelerar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizaco con éxito la implementación del método desacelerar" />
   </component>
 </project>
